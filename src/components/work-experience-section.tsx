@@ -4,6 +4,17 @@ import { CalendarDays, MapPin, Building } from "lucide-react";
 
 const workExperiences = [
   {
+    title: "Programmer Junior",
+    company: "Nusantara Sakti Group",
+    location: "Jakarta Barat, Indonesia",
+    period: "Sep 2025 - Now",
+    type: "Contract",
+    description: [
+      "Mempelajari sistem internal perusahaan dan teknologi yang digunakan",
+    ],
+    technologies: ["Ksystem","MySQL"],
+  },
+  {
     title: "Laboratory Assistant of Object Oriented Programming",
     company: "Universitas Jenderal Soedirman",
     location: "Purbalingga, Indonesia",
