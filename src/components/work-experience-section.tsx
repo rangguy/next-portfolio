@@ -10,7 +10,7 @@ const workExperiences = [
     period: "Sep 2025 - Now",
     type: "Contract",
     description: [
-      "Mempelajari sistem internal perusahaan dan teknologi yang digunakan",
+      "Berpartisipasi dalam pengembangan fitur baru untuk sistem ERP perusahaan.",
     ],
     technologies: ["Ksystem","MySQL"],
   },
