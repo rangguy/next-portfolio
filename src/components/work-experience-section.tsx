@@ -11,8 +11,9 @@ const workExperiences = [
     type: "Contract",
     description: [
       "Berpartisipasi dalam pengembangan fitur baru untuk sistem ERP perusahaan.",
+      "Membuat laporan menggunakan Eclipse BIRT dengan pengambilan data melalui query SQL."
     ],
-    technologies: ["Ksystem","MySQL"],
+    technologies: ["Ksystem","MySQL", "Eclipse BIRT"],
   },
   {
     title: "Laboratory Assistant of Object Oriented Programming",
@@ -62,7 +63,7 @@ export function WorkExperienceSection() {
             Pengalaman
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Pengalaman saya ketika magang kerja praktik dan menjadi asisten praktikum
+            Pengalaman saya ketika kerja, magang kerja praktik, dan menjadi asisten praktikum
           </p>
         </div>
 
