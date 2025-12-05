@@ -1,7 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github, FileText } from "lucide-react"
-import { Certificate } from "crypto"
 
 const projects = [
   {
@@ -24,7 +23,7 @@ const projects = [
     title: "Mastering Microservice Golang: Online Soccer Field Booking",
     description:
       "Membuat aplikasi Backend dengan arsitektur microservice menggunakan bahasa Golang (Gin Framework), PostgreSQL sebagai database, Docker untuk environment, Jenkins untuk CI/CD pipelines, Kafka sebagai message broker, Midtrans untuk payment gateway.",
-    image: "/iamges/flow.png",
+    image: "/images/microservices-golang.png",
     certificateUrl: "https://drive.google.com/file/d/1Tp0kAJse-FAJj_DUpNxMlH5D6tvhRyk7/view?usp=sharing",
     githubUrl: "https://github.com/rangguy/user-service-minisoccer",
   },
