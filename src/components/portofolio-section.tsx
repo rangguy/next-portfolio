@@ -1,8 +1,33 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github, FileText } from "lucide-react"
+import { Certificate } from "crypto"
 
 const projects = [
+  {
+    title: "Sistem Pendukung Keputusan dengan Metode SMART dan MOORA",
+    description:
+      "Sistem Pendukung Keputusan yang dibuat menggunakan metode SMART dan MOORA untuk melakukan penilaian kinerja produk dengan tiga kriteria keuangan, yaitu Return On Investment, Net Profit Margin, dan Rasio Efisiensi. Sistem ini dibangun menggunakan React sebagai Frontend dan Go sebagai Backend serta PostgreSQL untuk databasenya.",
+    image: "/images/spk.png",
+    liveUrl: "https://frontend-profitrack.vercel.app/",
+    githubUrl: "https://github.com/rangguy/frontend-profitrack",
+  },
+  {
+    title: "API Crowd Funding",
+    description:
+      "Membuat API untuk aplikasi penggalangan dana menggunakan salah satu payment gateway, yaitu Midtrans. Menggunakan JWT untuk authentikasi, PostgreSQL sebagai DBMSnya, dan Golang sebagai bahasa pemrogramannya dengan Gin framework.",
+    image: "/images/crowd-funding.png",
+    docsUrl: "https://documenter.getpostman.com/view/29135786/2sAYkLkbZf",
+    githubUrl: "https://github.com/rangguy/bwa-crowd-funding-backend",
+  },
+  {
+    title: "Mastering Microservice Golang: Online Soccer Field Booking",
+    description:
+      "Membuat aplikasi Backend dengan arsitektur microservice menggunakan bahasa Golang (Gin Framework), PostgreSQL sebagai database, Docker untuk environment, Jenkins untuk CI/CD pipelines, Kafka sebagai message broker, Midtrans untuk payment gateway.",
+    image: "/iamges/flow.png",
+    certificateUrl: "https://drive.google.com/file/d/1Tp0kAJse-FAJj_DUpNxMlH5D6tvhRyk7/view?usp=sharing",
+    githubUrl: "https://github.com/rangguy/user-service-minisoccer",
+  },
   {
     title: "Laravel 11, Breeze, Spatie: Bikin Web Platform Online Course",
     description:
@@ -35,22 +60,6 @@ const projects = [
     image: "/images/cafrestapp.png",
     certificateUrl: "https://drive.google.com/file/d/1hSLnviAFU9vkY05hGlF9XQ3J-hlr_9mT/view?usp=sharing",
     githubUrl: "https://github.com/rangguy/restaurant_app",
-  },
-  {
-    title: "Sistem Pendukung Keputusan dengan Metode SMART dan MOORA",
-    description:
-      "Sistem Pendukung Keputusan yang dibuat menggunakan metode SMART dan MOORA untuk melakukan penilaian kinerja produk dengan tiga kriteria keuangan, yaitu Return On Investment, Net Profit Margin, dan Rasio Efisiensi. Sistem ini dibangun menggunakan React sebagai Frontend dan Go sebagai Backend serta PostgreSQL untuk databasenya.",
-    image: "/images/spk.png",
-    liveUrl: "https://frontend-profitrack.vercel.app/",
-    githubUrl: "https://github.com/rangguy/frontend-profitrack",
-  },
-  {
-    title: "API Crowd Funding",
-    description:
-      "Membuat API untuk aplikasi penggalangan dana menggunakan salah satu payment gateway, yaitu Midtrans. Menggunakan JWT untuk authentikasi, PostgreSQL sebagai DBMSnya, dan Golang sebagai bahasa pemrogramannya dengan Gin framework.",
-    image: "/images/crowd-funding.png",
-    docsUrl: "https://documenter.getpostman.com/view/29135786/2sAYkLkbZf",
-    githubUrl: "https://github.com/rangguy/bwa-crowd-funding-backend",
   },
 ]
 

@@ -13,7 +13,7 @@ const workExperiences = [
       "Berpartisipasi dalam pengembangan fitur baru untuk sistem ERP perusahaan.",
       "Membuat laporan menggunakan Eclipse BIRT dengan pengambilan data melalui query SQL."
     ],
-    technologies: ["Ksystem","MySQL", "Eclipse BIRT"],
+    technologies: ["Ksystem","MySQL", "Eclipse BIRT", "Linux", "Superset Dashboard"],
   },
   {
     title: "Laboratory Assistant of Object Oriented Programming",
