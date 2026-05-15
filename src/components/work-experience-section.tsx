@@ -4,10 +4,35 @@ import { CalendarDays, MapPin, Building } from "lucide-react";
 
 const workExperiences = [
   {
+    title: "IT FullStack Developer",
+    company: "PT Manjo Teknologi Indonesia",
+    location: "Jakarta Selatan, Indonesia",
+    period: "Mar 2026 - Present",
+    type: "Full Time",
+    description: [
+      "Mengembangkan dan mengimplementasikan lebih dari 5 fitur untuk sistem Point of Sale (POS) menggunakan Svelte dan Golang guna mendukung operasional pembayaran digital.",
+      "Membantu lebih dari 3 proses integrasi merchant dan kolaborasi teknis untuk implementasi kerja sama partnership.",
+      "Mengembangkan dan mengimplementasikan lebih dari 2 fitur baru untuk sistem aggregator menggunakan Svelte."
+    ],
+    technologies: ["Svelte","Golang", "PostgreSQL / MySQL", "Redis", "Docker"],
+  },
+  {
+    title: "IT Staff - FullStack Web Dev",
+    company: "PT Autochem Industry",
+    location: "Tangerang, Indonesia",
+    period: "Dec 2025 - Mar 2026",
+    type: "Internship",
+    description: [
+      "Mengembangkan dan memelihara lebih dari 3 fitur pada website dashboard production menggunakan framework web CodeIgniter, AJAX, dan JavaScript.",
+      "Mengembangkan lebih dari 5 fitur untuk Knowledge Management System (KMS) berbasis RAG menggunakan Ollama sebagai model AI, pgvector sebagai vector database, CodeIgniter sebagai framework web, serta Python untuk parsing data."
+    ],
+    technologies: ["CodeIgniter","PostgreSQL", "PHP", "PGVector / Vector Database", "Ollama / RAG", "JavaScript", "AJAX"],
+  },
+  {
     title: "Programmer Junior",
     company: "Nusantara Sakti Group",
     location: "Jakarta Barat, Indonesia",
-    period: "Sep 2025 - Now",
+    period: "Sep 2025 - Dec 2025",
     type: "Contract",
     description: [
       "Berpartisipasi dalam pengembangan fitur baru untuk sistem ERP perusahaan.",

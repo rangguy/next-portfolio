@@ -1,0 +1,22 @@
+# robots.txt untuk ranggadwimah.vercel.app
+User-agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://ranggadwimah.vercel.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Specific rules untuk Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules untuk Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
