@@ -14,11 +14,11 @@ export function HeroSection() {
             </h1>
             <h2 className="font-medium text-gray-600 text-lg mb-5 lg:text-2xl">
               Fresh graduate in Informatics &{" "}
-              <span className="text-gray-800">Backend and Machine Learning enthusiast</span>
+              <span className="text-gray-800">FullStack Developer</span>
             </h2>
             <p className="font-medium text-gray-600 mb-10 leading-relaxed">
               Lulusan Informatika yang antusias belajar hal-hal baru di bidang
-              teknologi terutama pada pengembangan Backend dan Machine Learning😊
+              teknologi terutama pada pengembangan website, backend, dan juga sistem berbasis AI.
             </p>
             <Button asChild className="bg-teal-600 hover:bg-teal-700">
               <a href="#contact">Hubungi Saya</a>
