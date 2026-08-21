@@ -10,8 +10,8 @@ const workExperiences = [
     period: "Mar 2026 - Present",
     type: "Full Time",
     description: [
-      "Mengembangkan dan mengimplementasikan lebih dari 5 fitur untuk sistem Point of Sale (POS) menggunakan Svelte dan Golang guna mendukung operasional pembayaran digital.",
-      "Membantu lebih dari 3 proses integrasi merchant dan kolaborasi teknis untuk implementasi kerja sama partnership.",
+      "Mengembangkan dan mengimplementasikan lebih dari 10 fitur untuk sistem Point of Sale (POS) menggunakan Svelte dan Golang guna mendukung operasional pembayaran digital.",
+      "Membantu lebih dari 5 proses integrasi merchant dan kolaborasi teknis untuk implementasi kerja sama partnership.",
       "Mengembangkan dan mengimplementasikan lebih dari 2 fitur baru untuk sistem aggregator menggunakan Svelte."
     ],
     technologies: ["Svelte","Golang", "PostgreSQL / MySQL", "Redis", "Docker"],

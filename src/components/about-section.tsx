@@ -12,7 +12,7 @@ export function AboutSection() {
               Lulusan Informatika dari Universitas Jenderal Soedirman
             </h2>
             <p className="max-w-xl text-base font-medium text-gray-600 lg:text-lg">
-              Minat utama saya adalah di pengembangan perangkat lunak, khususnya pengembangan web dan backend dan juga pengembangan model Machine Learning
+              Minat utama saya adalah di pengembangan perangkat lunak, khususnya pengembangan full-stack web dan juga backend. Saya memiliki pengalaman dalam membangun aplikasi web menggunakan berbagai teknologi dan framework, serta memiliki pemahaman yang baik tentang prinsip-prinsip desain perangkat lunak dan praktik terbaik dalam pengembangan perangkat lunak.
             </p>
           </div>
           <div className="w-full lg:w-1/2">
